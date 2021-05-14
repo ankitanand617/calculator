@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 15px;
+    border: 8px solid black;
+    text-align: center;
+    display: flex;
+    text-align: center;
+
+    /* margin-top: 100px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3781c2;
+    background-color: gray;
+    padding: 0 13px 13px;
+
+}
+
+button:hover {
+    background-color: #292727;
+}
+
+#inputs {
+    background-color: gray;
+
+}
+
+h1 {
+    font-size: 38px;
+    /* color: whitesmoke;  */
+    height: 55px;
+    padding: 11px;
+    margin-top: 6px;
+    /* color: rgb(252, 72, 32); */
+}
+
+button {
+    height: 8vh;
+    width: 4em;
+    border-radius: 13px;
+    margin: 7px;
+    font-size: x-large;
+    font-weight: 600;
+    background-color: gray;
+    background-color: rgb(65, 62, 62);
+    color: white;
+    border: 2px solid black;
+}
+
+#input {
+    height: 8vh;
+    width: 18em;
+    border-radius: 8px;
+    font-size: x-large;
+    font-weight: 500;
+    text-align: right;
+    border: 3px solid black;
+}
+
+/* media query for phone */
+
+
+@media (max-width:550px) {
+
+    button {
+        height: 4.3vh;
+        width: 3.8em;
+        font-size: medium;
+        font-weight: 300;
+        border-radius: 9px;
+        margin: 4px;
+
+    }
+
+    #input {
+        height: 4vh;
+        width: 17em;
+        font-size: medium;
+        font-weight: 300;
+
+    }
+
+    #container {
+        width: 83%;
+        padding: 0;
+        border:5px solid black;
+
+
+    }
+
+    h1 {
+    font-size: 25px;
+    /* color: whitesmoke;  */
+    height: 35px;
+    padding: 4px;
+    margin-top: 6px;
+    /* color: rgb(252, 72, 32); */
+}
+}
